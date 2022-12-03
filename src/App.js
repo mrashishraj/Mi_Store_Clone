@@ -1,16 +1,13 @@
 import './App.css';
+import preNavbar from './components/preNavbar';
 
-const stylingText = {
-  backgroundColor:"green",
-  borderRadius:'10px',
-}
 
 function App() {
   return (
-    <div className="App" style={stylingText}>
-      Ashish Raj Hello world
-      <h1></h1>
-    </div>
+    <>
+    <preNavbar/>
+    ashsih
+    </>
   );
 }
 
