@@ -1,0 +1,6 @@
+.Videos{
+    display: flex;
+    width: 90vm;
+    justify-content: center;
+    margin: auto;
+}
