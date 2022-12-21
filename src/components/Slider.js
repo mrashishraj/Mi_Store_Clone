@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 const Slider = ({start}) => {
     // console.log(start);
   return (
-    <Caurosel variant="dark" nextLabel="" prevLabel="" fade>
+    <Caurosel variant="dark" nextLabel="" prevLabel="" indicators={false} fade>
             {start.map((item,index)=>(
         <Caurosel.Item key={index} interval={2000}>
             <img className='d-block w-100' src={item} alt="img" />

@@ -2,7 +2,6 @@ import React from 'react'
 import "../styles/ProductReviewsCard.css";
 
 const ProductReviewsCard = ({image, name, index, review,price}) => {
-    console.log(image,name, index, review);
   return (
     <div className="ProductReviewCard">
         <img src={image} alt={`${index} review`} />    
